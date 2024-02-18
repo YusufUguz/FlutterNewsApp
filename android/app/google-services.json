@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "426807708168",
+    "project_id": "newsapp-98abe",
+    "storage_bucket": "newsapp-98abe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:426807708168:android:455eaf658c0b68fa4bdfbd",
+        "android_client_info": {
+          "package_name": "com.YusufUguz.news_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5HMHp0-blKXYJmuLisYEkR_MS1t0mqjA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
