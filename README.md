@@ -13,8 +13,6 @@ Features:<br />
 <br />
 :heavy_check_mark: User can save any content and can delete one or all from saved list of her/his.<br />
 <br />
-:heavy_check_mark: User can save any content and can delete one or all from saved list of her/his.<br />
-<br />
 :heavy_check_mark: On the menu page, user can be directed to a login registration screen, go to social media accounts, write a message, and view information about the site/application.<br />
 <br />
 :heavy_check_mark: User can log in and register with firebase authentication feature.<br />
