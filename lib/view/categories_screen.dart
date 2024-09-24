@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:news_app/functions/rightToLeft_animation.dart';
 import 'package:news_app/providers/main_provider.dart';
 import 'package:news_app/services/categories_service.dart';
-import 'package:news_app/view/screens/news_by_categories_screen.dart';
+import 'package:news_app/view/news_by_categories_screen.dart';
 import 'package:news_app/widgets/categories_card.dart';
 import 'package:provider/provider.dart';
 

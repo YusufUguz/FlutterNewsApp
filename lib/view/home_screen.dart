@@ -7,7 +7,7 @@ import 'package:news_app/functions/save_news.dart';
 import 'package:news_app/model/content_model.dart';
 import 'package:news_app/providers/main_provider.dart';
 import 'package:news_app/functions/calculate_time_ago.dart';
-import 'package:news_app/view/screens/see_all_screen.dart';
+import 'package:news_app/view/see_all_screen.dart';
 import 'package:news_app/widgets/listview_card.dart';
 import 'package:news_app/widgets/header_container.dart';
 import 'package:news_app/widgets/featured_news_card.dart';

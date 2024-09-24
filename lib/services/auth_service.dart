@@ -3,7 +3,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:news_app/functions/rightToLeft_animation.dart';
-import 'package:news_app/view/screens/main_screen.dart';
+import 'package:news_app/view/main_screen.dart';
 
 class Auth {
   final firebaseAuth = FirebaseAuth.instance;

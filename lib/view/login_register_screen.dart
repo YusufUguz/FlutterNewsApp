@@ -6,7 +6,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:news_app/constants.dart';
 import 'package:news_app/functions/rightToLeft_animation.dart';
 import 'package:news_app/services/auth_service.dart';
-import 'package:news_app/view/screens/main_screen.dart';
+import 'package:news_app/view/main_screen.dart';
 import 'package:news_app/widgets/my_text_form_field.dart';
 
 class LoginRegisterScreen extends StatelessWidget {
@@ -30,7 +30,10 @@ class LoginRegisterScreen extends StatelessWidget {
         appBar: AppBar(
           backgroundColor: Constants.appsMainColor,
           centerTitle: true,
-          title: const Text('Giriş Yap / Kayıt Ol'),
+          title: const Text(
+            'Giriş Yap / Kayıt Ol',
+            style: TextStyle(color: Colors.white),
+          ),
           bottom: const TabBar(
               indicatorWeight: 5,
               indicatorColor: Colors.white,
@@ -38,13 +41,13 @@ class LoginRegisterScreen extends StatelessWidget {
                 Tab(
                   child: Text(
                     'Giriş Yap',
-                    style: TextStyle(fontSize: 20),
+                    style: TextStyle(fontSize: 20, color: Colors.white),
                   ),
                 ),
                 Tab(
                   child: Text(
                     'Kayıt Ol',
-                    style: TextStyle(fontSize: 20),
+                    style: TextStyle(fontSize: 20, color: Colors.white),
                   ),
                 )
               ]),
@@ -329,7 +332,9 @@ class _RegisterSectionState extends State<RegisterSection> {
                         child: Text(
                           'Kayıt Ol',
                           style: TextStyle(
-                              fontSize: 20, fontFamily: 'Blogger_Sans'),
+                              fontSize: 20,
+                              fontFamily: 'Blogger_Sans',
+                              color: Colors.white),
                         ),
                       ),
                     ),
@@ -426,7 +431,9 @@ class LoginSection extends StatelessWidget {
                         child: Text(
                           'Giriş Yap',
                           style: TextStyle(
-                              fontSize: 20, fontFamily: 'Blogger_Sans'),
+                              fontSize: 20,
+                              fontFamily: 'Blogger_Sans',
+                              color: Colors.white),
                         ),
                       ),
                     ),

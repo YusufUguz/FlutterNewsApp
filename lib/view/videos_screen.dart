@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:news_app/providers/main_provider.dart';
-import 'package:news_app/view/screens/video_player_page.dart';
+import 'package:news_app/view/video_player_page.dart';
 
 class VideosScreen extends StatelessWidget {
   final MainProvider _firestoreService = MainProvider();

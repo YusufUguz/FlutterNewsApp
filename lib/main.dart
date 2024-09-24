@@ -6,7 +6,7 @@ import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:intl/date_symbol_data_local.dart';
 import 'package:news_app/providers/main_provider.dart';
 import 'package:news_app/providers/search_provider.dart';
-import 'package:news_app/view/screens/main_screen.dart';
+import 'package:news_app/view/main_screen.dart';
 import 'package:provider/provider.dart';
 
 void main() async {

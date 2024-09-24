@@ -6,7 +6,7 @@ import 'package:news_app/constants.dart';
 import 'package:news_app/functions/launch_url.dart';
 import 'package:news_app/functions/rightToLeft_animation.dart';
 import 'package:news_app/services/auth_service.dart';
-import 'package:news_app/view/screens/login_register_screen.dart';
+import 'package:news_app/view/login_register_screen.dart';
 
 // ignore: must_be_immutable
 class MenuScreen extends StatefulWidget {
@@ -82,7 +82,7 @@ class _MenuScreenState extends State<MenuScreen> {
                         child: const Center(
                           child: Text(
                             'Giriş Yap / Kayıt Ol',
-                            style: TextStyle(fontSize: 20),
+                            style: TextStyle(fontSize: 20, color: Colors.white),
                           ),
                         ),
                       ),

@@ -101,6 +101,7 @@ class _ContentDetailsScreenState extends State<ContentDetailsScreen> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Constants.appsMainColor,
+        foregroundColor: Colors.white,
         actions: [
           IconButton(
             onPressed: () {

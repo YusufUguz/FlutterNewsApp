@@ -20,9 +20,10 @@ class NewsByCategoriesScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Constants.appsMainColor,
+        foregroundColor: Colors.white,
         title: Text(
           category,
-          style: const TextStyle(fontSize: 25),
+          style: const TextStyle(fontSize: 25, color: Colors.white),
         ),
         centerTitle: true,
       ),

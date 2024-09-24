@@ -6,7 +6,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 import 'package:news_app/constants.dart';
 import 'package:news_app/functions/rightToLeft_animation.dart';
-import 'package:news_app/view/screens/content_details_screen.dart';
+import 'package:news_app/view/content_details_screen.dart';
 
 // ignore: must_be_immutable
 class FeaturedNewsCard extends StatelessWidget {

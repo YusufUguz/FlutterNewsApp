@@ -9,8 +9,8 @@ import 'package:news_app/functions/delete_saved_news.dart';
 import 'package:news_app/functions/rightToLeft_animation.dart';
 import 'package:news_app/functions/save_news.dart';
 import 'package:news_app/providers/main_provider.dart';
-import 'package:news_app/view/screens/login_register_screen.dart';
-import 'package:news_app/view/screens/main_screen.dart';
+import 'package:news_app/view/login_register_screen.dart';
+import 'package:news_app/view/main_screen.dart';
 import 'package:news_app/widgets/listview_card.dart';
 import 'package:provider/provider.dart';
 
@@ -74,7 +74,10 @@ class _SavedScreenState extends State<SavedScreen> {
             }
           },
           backgroundColor: Constants.appsMainColor,
-          child: const Icon(Icons.delete)),
+          child: const Icon(
+            Icons.delete,
+            color: Colors.white,
+          )),
       body: SafeArea(
         child: user == null
             ? Center(
@@ -110,7 +113,7 @@ class _SavedScreenState extends State<SavedScreen> {
                         },
                         child: const Text(
                           'Giriş Yap / Kayıt Ol',
-                          style: TextStyle(fontSize: 20),
+                          style: TextStyle(fontSize: 20, color: Colors.white),
                         ),
                       ),
                     ),

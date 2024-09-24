@@ -3,12 +3,12 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
 import 'package:news_app/constants.dart';
 import 'package:news_app/functions/rightToLeft_animation.dart';
-import 'package:news_app/view/screens/categories_screen.dart';
-import 'package:news_app/view/screens/home_screen.dart';
-import 'package:news_app/view/screens/menu_screen.dart';
-import 'package:news_app/view/screens/saved_screen.dart';
-import 'package:news_app/view/screens/search_screen.dart';
-import 'package:news_app/view/screens/videos_screen.dart';
+import 'package:news_app/view/categories_screen.dart';
+import 'package:news_app/view/home_screen.dart';
+import 'package:news_app/view/menu_screen.dart';
+import 'package:news_app/view/saved_screen.dart';
+import 'package:news_app/view/search_screen.dart';
+import 'package:news_app/view/videos_screen.dart';
 
 class MainScreen extends StatefulWidget {
   const MainScreen({super.key});
@@ -43,6 +43,7 @@ class _MainScreenState extends State<MainScreen> {
               icon: const Icon(
                 FontAwesomeIcons.magnifyingGlass,
                 size: 20,
+                color: Colors.white,
               ),
             ),
           ],
