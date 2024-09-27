@@ -28,6 +28,7 @@ Technologies:<br />
 :pushpin: Dart<br />
 :pushpin: Firebase Authentication<br />
 :pushpin: Firebase Database<br />
+:pushpin: Google Admob<br />
 :pushpin: Important Packages : firebase_core,firebase_auth,firebase_storage,video_player,google_mobile_ads,ont_awesome_flutter<br />
 
 Home Screen<br />
